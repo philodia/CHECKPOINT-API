@@ -1,0 +1,65 @@
+/* App.css */
+
+/* Styles pour le composant principal .App */
+.App {
+  background-color: #200101;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles pour l'en-tête .App-header */
+.App-header {
+  background-color: #007bff;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom: 4px solid #0056b3;
+  text-align: center;
+}
+
+/* Styles pour le titre h1 dans le composant App */
+.App h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5rem;
+}
+
+/* Styles pour le composant principal .App */
+.App main {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Styles pour la liste des utilisateurs dans le composant UserList */
+.UserList {
+  text-align: left;
+}
+
+/* Styles pour les éléments de liste */
+.UserList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.UserList li {
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajoutez des styles personnalisés pour le reste de votre application ici */
